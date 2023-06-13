@@ -1,0 +1,11 @@
+D:\Programming\VS_Workspace\PJM_methodology_picker\bin\Debug\PJM_methodology_picker.exe.config
+D:\Programming\VS_Workspace\PJM_methodology_picker\bin\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\PJM_methodology_picker\bin\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.csproj.AssemblyReference.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.csproj.SuggestedBindingRedirects.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.Properties.Resources.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.csproj.GenerateResource.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.csproj.CoreCompileInputs.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.MainWindow.resources
