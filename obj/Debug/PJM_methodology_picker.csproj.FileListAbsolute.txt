@@ -9,3 +9,5 @@ D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_pic
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.exe
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.pdb
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.MainWindow.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.Menu.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.ViewDatabaseWindow.resources
