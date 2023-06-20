@@ -43,6 +43,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Buget
+            mthd.checkSelection(Atribute.Buget);
+
             if (!B_1_1.Checked && !B_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from B category!");
@@ -77,6 +80,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Cerinte
+            mthd.checkSelection(Atribute.Cerinte);
+
             if (!C_1_1.Checked && !C_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from C category!");
@@ -94,6 +100,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Ciclu_De_Dezvoltare
+            mthd.checkSelection(Atribute.Ciclu_De_Dezvoltare);
+
             if (!D_1_1.Checked && !D_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from D category!");
@@ -110,6 +119,9 @@ namespace PJM_methodology_picker
                     mthd.incrementAgile();
                 }
             }
+
+            // Check Domeniu_Aplicare
+            mthd.checkSelection(Atribute.Domeniu_Aplicare);
 
             if (!E_1_1.Checked && !E_1_2.Checked)
             {
@@ -145,6 +157,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Managementul_Partilor_Interesate
+            mthd.checkSelection(Atribute.Managementul_Partilor_Interesate);
+
             if (!F_1_1.Checked && !F_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from F category!");
@@ -162,6 +177,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Marimea_Echipei
+            mthd.checkSelection(Atribute.Marimea_Echipei);
+
             if (!G_1_1.Checked && !G_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from G category!");
@@ -178,6 +196,9 @@ namespace PJM_methodology_picker
                     mthd.incrementAgile();
                 }
             }
+
+            // Check Obiectivele
+            mthd.checkSelection(Atribute.Obiectivele);
 
             if (!H_1_1.Checked && !H_1_2.Checked)
             {
@@ -213,6 +234,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Planificarea_Managementului_de_Proiect
+            mthd.checkSelection(Atribute.Planificarea_Managementului_de_Proiect);
+
             if (!I_1_1.Checked && !I_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from I category!");
@@ -247,6 +271,9 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Resursele
+            mthd.checkSelection(Atribute.Resursele);
+
             if (!J_1_1.Checked && !J_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from J category!");
@@ -264,7 +291,11 @@ namespace PJM_methodology_picker
                 }
             }
 
+            // Check Timpul
+            mthd.checkSelection(Atribute.Timpul);
+
             mthd.consoleDisplayResult();
+            mthd.printDictToConsole();
             this.Close();
         }
 
