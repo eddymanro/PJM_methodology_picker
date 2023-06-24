@@ -26,6 +26,17 @@ namespace PJM_methodology_picker
         {
             Methodology mthd = new Methodology();
 
+            //verificare field nume proiect
+            if (numeProiectField.Text == "")
+            {
+                MessageBox.Show("Please enter a project name", "Empty value", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else 
+            {
+                mthd.setProjName(numeProiectField.Text);
+            }
+
             if (!A_1_1.Checked && !A_1_2.Checked)
             {
                 MessageBox.Show("Please select an option for Question 1 from A category!");
@@ -294,7 +305,7 @@ namespace PJM_methodology_picker
             // Check Timpul
             mthd.checkSelection(Atribute.Timpul);
 
-            mthd.consoleDisplayResult();
+            mthd.printProjNameToConsole();
             mthd.printDictToConsole();
             this.Close();
         }

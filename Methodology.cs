@@ -58,7 +58,18 @@ namespace PJM_methodology_picker
         public Dictionary<Atribute, Metodologii> getDict()
         { 
             return this.mapping_dict; 
-        } 
+        }
+
+        public string getNumeProiect() 
+        {
+            return this.proj_Name;
+        }
+
+        // setters
+        public void setProjName(string proj_Name) 
+        {
+            this.proj_Name=proj_Name;
+        }
 
         // helper methods
         public void addToDict(Atribute atr, Metodologii mtd)
@@ -76,12 +87,6 @@ namespace PJM_methodology_picker
         {
             this.counter_Waterfall += 1;
             Console.WriteLine("Waterfall methodology +1 pt");
-        }
-
-        public void consoleDisplayResult()
-        {
-            Console.WriteLine("Agile final score: " + this.counter_Agile);
-            Console.WriteLine("Waterfall final score: " + this.counter_Waterfall);
         }
 
         public void resetCounters()
@@ -108,9 +113,16 @@ namespace PJM_methodology_picker
             this.resetCounters();
         }
 
-        public void printDictToConsole() 
+        public void printProjNameToConsole() 
         {
             Console.WriteLine("------------------------------------------");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("| Project Name: " + this.proj_Name + " |");
+            Console.WriteLine("------------------------------------");
+        }
+
+        public void printDictToConsole() 
+        {
             foreach (var kv_pair in this.mapping_dict) 
             {
                 Console.WriteLine("{0} -> {1}", kv_pair.Key, kv_pair.Value);
