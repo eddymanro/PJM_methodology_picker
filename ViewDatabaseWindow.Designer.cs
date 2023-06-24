@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridV = new System.Windows.Forms.DataGridView();
             this.quitBtn = new System.Windows.Forms.Button();
+            this.dataGridV = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridV)).BeginInit();
             this.SuspendLayout();
@@ -40,20 +41,10 @@
             this.panel1.Controls.Add(this.quitBtn);
             this.panel1.Controls.Add(this.dataGridV);
             this.panel1.Location = new System.Drawing.Point(0, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1072, 553);
             this.panel1.TabIndex = 0;
-            // 
-            // dataGridV
-            // 
-            this.dataGridV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridV.Location = new System.Drawing.Point(12, 11);
-            this.dataGridV.Name = "dataGridV";
-            this.dataGridV.RowHeadersWidth = 51;
-            this.dataGridV.RowTemplate.Height = 24;
-            this.dataGridV.Size = new System.Drawing.Size(1043, 438);
-            this.dataGridV.TabIndex = 0;
             // 
             // quitBtn
             // 
@@ -69,13 +60,31 @@
             this.quitBtn.UseVisualStyleBackColor = false;
             this.quitBtn.Click += new System.EventHandler(this.quitBtn_Click);
             // 
+            // dataGridV
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridV.Location = new System.Drawing.Point(12, 11);
+            this.dataGridV.Name = "dataGridV";
+            this.dataGridV.RowHeadersWidth = 51;
+            this.dataGridV.RowTemplate.Height = 24;
+            this.dataGridV.Size = new System.Drawing.Size(1043, 438);
+            this.dataGridV.TabIndex = 0;
+            // 
             // ViewDatabaseWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ViewDatabaseWindow";
             this.Text = "ViewDatabaseWindow";
             this.panel1.ResumeLayout(false);

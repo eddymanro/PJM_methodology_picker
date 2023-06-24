@@ -309,10 +309,11 @@ namespace PJM_methodology_picker
             // Check Timpul
             mthd.checkSelection(Atribute.Timpul);
 
+            // Console helpers
             mthd.printProjNameToConsole();
             mthd.printDictToConsole();
 
-            //Write Data to database:
+            // Write Data to database:
             addDataToDb(mthd);
 
             this.Close();
