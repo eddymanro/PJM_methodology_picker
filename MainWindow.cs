@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,10 +17,13 @@ namespace PJM_methodology_picker
         List<Panel> listPanel = new List<Panel>();
         private int idx = 0;
         private int pg_nr = 1;
+        private ConnectToDb connection;
+        private ProjectModel projectData;
         public MainWindow()
         {
             InitializeComponent();
             panelA.BringToFront();
+            connection = new ConnectToDb();
         }
 
         private void generateBtn_Click(object sender, EventArgs e)
@@ -307,7 +311,33 @@ namespace PJM_methodology_picker
 
             mthd.printProjNameToConsole();
             mthd.printDictToConsole();
+
+            //Write Data to database:
+            addDataToDb(mthd);
+
             this.Close();
+        }
+
+        private void addDataToDb(Methodology mt)
+        {
+            IMongoCollection<ProjectModel> projectsCollection = this.connection.getProjectsCollection();
+            
+            this.projectData = new ProjectModel
+            {
+                Nume_Proiect = mt.getNumeProiect(),
+                Buget = mt.getDict()[Atribute.Buget].ToString(),
+                Cerinte = mt.getDict()[Atribute.Cerinte].ToString(),
+                Ciclu_De_Dezvoltare = mt.getDict()[Atribute.Ciclu_De_Dezvoltare].ToString(),
+                Domeniu_Aplicare = mt.getDict()[Atribute.Domeniu_Aplicare].ToString(),
+                Managementul_Partilor_Interesate = mt.getDict()[Atribute.Managementul_Partilor_Interesate].ToString(),
+                Marimea_Echipei = mt.getDict()[Atribute.Marimea_Echipei].ToString(),
+                Obiectivele = mt.getDict()[Atribute.Obiectivele].ToString(),
+                Planificarea_Managementului_de_Proiect = mt.getDict()[Atribute.Planificarea_Managementului_de_Proiect].ToString(),
+                Resursele = mt.getDict()[Atribute.Resursele].ToString(),
+                Timpul = mt.getDict()[Atribute.Timpul].ToString(),
+            };
+
+            projectsCollection.InsertOne(projectData);
         }
 
         private void prev_btn_Click(object sender, EventArgs e)
