@@ -11,3 +11,16 @@ D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_pic
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.MainWindow.resources
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.Menu.resources
 D:\Programming\VS_Workspace\PJM_methodology_picker\obj\Debug\PJM_methodology_picker.ViewDatabaseWindow.resources
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\PJM_methodology_picker.exe.config
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\PJM_methodology_picker.exe
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\PJM_methodology_picker.pdb
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.csproj.AssemblyReference.cache
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.csproj.SuggestedBindingRedirects.cache
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.MainWindow.resources
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.Menu.resources
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.Properties.Resources.resources
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.ViewDatabaseWindow.resources
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.csproj.GenerateResource.cache
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.csproj.CoreCompileInputs.cache
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.exe
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.pdb
