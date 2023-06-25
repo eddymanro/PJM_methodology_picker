@@ -67,3 +67,4 @@ C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\System.Security.Pri
 C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Programming\Master_Oana\PM_Methodology_Analyzer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.csproj.CopyComplete
+C:\Programming\Master_Oana\PM_Methodology_Analyzer\obj\Debug\PJM_methodology_picker.ViewResultGraphs.resources

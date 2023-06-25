@@ -316,6 +316,10 @@ namespace PJM_methodology_picker
             // Write Data to database:
             addDataToDb(mthd);
 
+            // Open Results window:
+            ViewResultGraphs viewResultGraphs = new ViewResultGraphs();
+            viewResultGraphs.Show();
+
             this.Close();
         }
 
