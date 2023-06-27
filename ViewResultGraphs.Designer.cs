@@ -56,15 +56,35 @@
             this.E_W = new System.Windows.Forms.Panel();
             this.H_W = new System.Windows.Forms.Panel();
             this.I_W = new System.Windows.Forms.Panel();
+            this.B_AW = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.E_AW = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.H_AW = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.I_AW = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.basePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.legendAgilePanel.SuspendLayout();
             this.legendWaterfallPanel.SuspendLayout();
+            this.B_AW.SuspendLayout();
+            this.E_AW.SuspendLayout();
+            this.H_AW.SuspendLayout();
+            this.I_AW.SuspendLayout();
             this.SuspendLayout();
             // 
             // basePanel
             // 
             this.basePanel.BackColor = System.Drawing.Color.White;
+            this.basePanel.Controls.Add(this.I_AW);
+            this.basePanel.Controls.Add(this.H_AW);
+            this.basePanel.Controls.Add(this.E_AW);
+            this.basePanel.Controls.Add(this.B_AW);
             this.basePanel.Controls.Add(this.I_W);
             this.basePanel.Controls.Add(this.H_W);
             this.basePanel.Controls.Add(this.E_W);
@@ -115,12 +135,12 @@
             // inchideBtn
             // 
             this.inchideBtn.BackColor = System.Drawing.Color.DarkGray;
-            this.inchideBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inchideBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inchideBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.inchideBtn.Location = new System.Drawing.Point(453, 561);
+            this.inchideBtn.Location = new System.Drawing.Point(482, 561);
             this.inchideBtn.Margin = new System.Windows.Forms.Padding(4);
             this.inchideBtn.Name = "inchideBtn";
-            this.inchideBtn.Size = new System.Drawing.Size(409, 46);
+            this.inchideBtn.Size = new System.Drawing.Size(416, 38);
             this.inchideBtn.TabIndex = 2;
             this.inchideBtn.Text = "Inchide";
             this.inchideBtn.UseVisualStyleBackColor = false;
@@ -130,7 +150,7 @@
             // 
             this.legendAgilePanel.BackColor = System.Drawing.Color.MediumOrchid;
             this.legendAgilePanel.Controls.Add(this.label1);
-            this.legendAgilePanel.Location = new System.Drawing.Point(12, 561);
+            this.legendAgilePanel.Location = new System.Drawing.Point(12, 560);
             this.legendAgilePanel.Name = "legendAgilePanel";
             this.legendAgilePanel.Size = new System.Drawing.Size(176, 38);
             this.legendAgilePanel.TabIndex = 5;
@@ -139,7 +159,7 @@
             // 
             this.legendWaterfallPanel.BackColor = System.Drawing.Color.YellowGreen;
             this.legendWaterfallPanel.Controls.Add(this.label2);
-            this.legendWaterfallPanel.Location = new System.Drawing.Point(194, 561);
+            this.legendWaterfallPanel.Location = new System.Drawing.Point(248, 561);
             this.legendWaterfallPanel.Name = "legendWaterfallPanel";
             this.legendWaterfallPanel.Size = new System.Drawing.Size(176, 38);
             this.legendWaterfallPanel.TabIndex = 6;
@@ -148,7 +168,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 8);
+            this.label1.Location = new System.Drawing.Point(53, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 20);
             this.label1.TabIndex = 0;
@@ -158,7 +178,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 8);
+            this.label2.Location = new System.Drawing.Point(32, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 20);
             this.label2.TabIndex = 7;
@@ -316,6 +336,106 @@
             this.I_W.Size = new System.Drawing.Size(63, 363);
             this.I_W.TabIndex = 21;
             // 
+            // B_AW
+            // 
+            this.B_AW.Controls.Add(this.panel1);
+            this.B_AW.Controls.Add(this.panel2);
+            this.B_AW.Location = new System.Drawing.Point(230, 54);
+            this.B_AW.Name = "B_AW";
+            this.B_AW.Size = new System.Drawing.Size(83, 363);
+            this.B_AW.TabIndex = 22;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.MediumOrchid;
+            this.panel2.Location = new System.Drawing.Point(11, 182);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(63, 181);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.YellowGreen;
+            this.panel1.Location = new System.Drawing.Point(11, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(63, 184);
+            this.panel1.TabIndex = 23;
+            // 
+            // E_AW
+            // 
+            this.E_AW.Controls.Add(this.panel4);
+            this.E_AW.Controls.Add(this.panel5);
+            this.E_AW.Location = new System.Drawing.Point(586, 55);
+            this.E_AW.Name = "E_AW";
+            this.E_AW.Size = new System.Drawing.Size(83, 363);
+            this.E_AW.TabIndex = 24;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.YellowGreen;
+            this.panel4.Location = new System.Drawing.Point(11, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(63, 184);
+            this.panel4.TabIndex = 23;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.MediumOrchid;
+            this.panel5.Location = new System.Drawing.Point(11, 182);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(63, 181);
+            this.panel5.TabIndex = 0;
+            // 
+            // H_AW
+            // 
+            this.H_AW.Controls.Add(this.panel6);
+            this.H_AW.Controls.Add(this.panel7);
+            this.H_AW.Location = new System.Drawing.Point(950, 55);
+            this.H_AW.Name = "H_AW";
+            this.H_AW.Size = new System.Drawing.Size(83, 363);
+            this.H_AW.TabIndex = 25;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.YellowGreen;
+            this.panel6.Location = new System.Drawing.Point(11, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(63, 184);
+            this.panel6.TabIndex = 23;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.MediumOrchid;
+            this.panel7.Location = new System.Drawing.Point(11, 182);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(63, 181);
+            this.panel7.TabIndex = 0;
+            // 
+            // I_AW
+            // 
+            this.I_AW.Controls.Add(this.panel9);
+            this.I_AW.Controls.Add(this.panel10);
+            this.I_AW.Location = new System.Drawing.Point(1071, 54);
+            this.I_AW.Name = "I_AW";
+            this.I_AW.Size = new System.Drawing.Size(83, 363);
+            this.I_AW.TabIndex = 26;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.YellowGreen;
+            this.panel9.Location = new System.Drawing.Point(11, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(63, 184);
+            this.panel9.TabIndex = 23;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.MediumOrchid;
+            this.panel10.Location = new System.Drawing.Point(11, 182);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(63, 181);
+            this.panel10.TabIndex = 0;
+            // 
             // ViewResultGraphs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -330,6 +450,10 @@
             this.legendAgilePanel.PerformLayout();
             this.legendWaterfallPanel.ResumeLayout(false);
             this.legendWaterfallPanel.PerformLayout();
+            this.B_AW.ResumeLayout(false);
+            this.E_AW.ResumeLayout(false);
+            this.H_AW.ResumeLayout(false);
+            this.I_AW.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -363,5 +487,17 @@
         private System.Windows.Forms.Panel H_W;
         private System.Windows.Forms.Panel E_W;
         private System.Windows.Forms.Panel B_W;
+        private System.Windows.Forms.Panel I_AW;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel H_AW;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel E_AW;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel B_AW;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
