@@ -13,6 +13,7 @@ namespace PJM_methodology_picker
     {
         // List of object that holds the data locally
         static List<ProjectModel> projectsList = new List<ProjectModel>();
+        static Methodology projData;
 
         // helper function to populate the array lists    
         public static void populateArraylist<T>(IMongoCollection<T> collection, List<T> list)
@@ -33,6 +34,24 @@ namespace PJM_methodology_picker
         public static void clearList<T>(List<T> list)
         {
             list.Clear();
+        }
+
+        // return local temp project data
+        public static Methodology getProjecData() 
+        {
+            return projData;
+        }
+
+        // set local temp project data
+        public static void setProjectData(Methodology proj)
+        {
+            projData = proj;
+        }
+
+        // delete object data
+        public static void deleteProjectObject()
+        { 
+            projData = null;
         }
 
         /// <summary>

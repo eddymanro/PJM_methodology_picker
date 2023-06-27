@@ -316,6 +316,9 @@ namespace PJM_methodology_picker
             // Write Data to database:
             addDataToDb(mthd);
 
+            // Copy project data locally for further processing
+            Program.setProjectData(mthd);
+
             // Open Results window:
             ViewResultGraphs viewResultGraphs = new ViewResultGraphs();
             viewResultGraphs.Show();
