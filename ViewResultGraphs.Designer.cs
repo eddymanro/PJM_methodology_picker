@@ -46,6 +46,16 @@
             this.H_A = new System.Windows.Forms.Panel();
             this.I_A = new System.Windows.Forms.Panel();
             this.J_A = new System.Windows.Forms.Panel();
+            this.A_W = new System.Windows.Forms.Panel();
+            this.C_W = new System.Windows.Forms.Panel();
+            this.D_W = new System.Windows.Forms.Panel();
+            this.F_W = new System.Windows.Forms.Panel();
+            this.G_W = new System.Windows.Forms.Panel();
+            this.J_W = new System.Windows.Forms.Panel();
+            this.B_W = new System.Windows.Forms.Panel();
+            this.E_W = new System.Windows.Forms.Panel();
+            this.H_W = new System.Windows.Forms.Panel();
+            this.I_W = new System.Windows.Forms.Panel();
             this.basePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.legendAgilePanel.SuspendLayout();
@@ -55,6 +65,16 @@
             // basePanel
             // 
             this.basePanel.BackColor = System.Drawing.Color.White;
+            this.basePanel.Controls.Add(this.I_W);
+            this.basePanel.Controls.Add(this.H_W);
+            this.basePanel.Controls.Add(this.E_W);
+            this.basePanel.Controls.Add(this.B_W);
+            this.basePanel.Controls.Add(this.J_W);
+            this.basePanel.Controls.Add(this.F_W);
+            this.basePanel.Controls.Add(this.G_W);
+            this.basePanel.Controls.Add(this.D_W);
+            this.basePanel.Controls.Add(this.C_W);
+            this.basePanel.Controls.Add(this.A_W);
             this.basePanel.Controls.Add(this.A_A);
             this.basePanel.Controls.Add(this.J_A);
             this.basePanel.Controls.Add(this.I_A);
@@ -216,6 +236,86 @@
             this.J_A.Size = new System.Drawing.Size(63, 363);
             this.J_A.TabIndex = 13;
             // 
+            // A_W
+            // 
+            this.A_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.A_W.Location = new System.Drawing.Point(125, 55);
+            this.A_W.Name = "A_W";
+            this.A_W.Size = new System.Drawing.Size(63, 363);
+            this.A_W.TabIndex = 14;
+            // 
+            // C_W
+            // 
+            this.C_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.C_W.Location = new System.Drawing.Point(361, 55);
+            this.C_W.Name = "C_W";
+            this.C_W.Size = new System.Drawing.Size(63, 363);
+            this.C_W.TabIndex = 15;
+            // 
+            // D_W
+            // 
+            this.D_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.D_W.Location = new System.Drawing.Point(482, 55);
+            this.D_W.Name = "D_W";
+            this.D_W.Size = new System.Drawing.Size(63, 363);
+            this.D_W.TabIndex = 16;
+            // 
+            // F_W
+            // 
+            this.F_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.F_W.Location = new System.Drawing.Point(716, 55);
+            this.F_W.Name = "F_W";
+            this.F_W.Size = new System.Drawing.Size(63, 363);
+            this.F_W.TabIndex = 17;
+            // 
+            // G_W
+            // 
+            this.G_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.G_W.Location = new System.Drawing.Point(835, 55);
+            this.G_W.Name = "G_W";
+            this.G_W.Size = new System.Drawing.Size(63, 363);
+            this.G_W.TabIndex = 17;
+            // 
+            // J_W
+            // 
+            this.J_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.J_W.Location = new System.Drawing.Point(1197, 55);
+            this.J_W.Name = "J_W";
+            this.J_W.Size = new System.Drawing.Size(63, 363);
+            this.J_W.TabIndex = 17;
+            // 
+            // B_W
+            // 
+            this.B_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.B_W.Location = new System.Drawing.Point(241, 55);
+            this.B_W.Name = "B_W";
+            this.B_W.Size = new System.Drawing.Size(63, 363);
+            this.B_W.TabIndex = 18;
+            // 
+            // E_W
+            // 
+            this.E_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.E_W.Location = new System.Drawing.Point(595, 55);
+            this.E_W.Name = "E_W";
+            this.E_W.Size = new System.Drawing.Size(63, 363);
+            this.E_W.TabIndex = 19;
+            // 
+            // H_W
+            // 
+            this.H_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.H_W.Location = new System.Drawing.Point(960, 55);
+            this.H_W.Name = "H_W";
+            this.H_W.Size = new System.Drawing.Size(63, 363);
+            this.H_W.TabIndex = 20;
+            // 
+            // I_W
+            // 
+            this.I_W.BackColor = System.Drawing.Color.YellowGreen;
+            this.I_W.Location = new System.Drawing.Point(1082, 55);
+            this.I_W.Name = "I_W";
+            this.I_W.Size = new System.Drawing.Size(63, 363);
+            this.I_W.TabIndex = 21;
+            // 
             // ViewResultGraphs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -253,5 +353,15 @@
         private System.Windows.Forms.Panel D_A;
         private System.Windows.Forms.Panel C_A;
         private System.Windows.Forms.Panel B_A;
+        private System.Windows.Forms.Panel J_W;
+        private System.Windows.Forms.Panel F_W;
+        private System.Windows.Forms.Panel G_W;
+        private System.Windows.Forms.Panel D_W;
+        private System.Windows.Forms.Panel C_W;
+        private System.Windows.Forms.Panel A_W;
+        private System.Windows.Forms.Panel I_W;
+        private System.Windows.Forms.Panel H_W;
+        private System.Windows.Forms.Panel E_W;
+        private System.Windows.Forms.Panel B_W;
     }
 }
