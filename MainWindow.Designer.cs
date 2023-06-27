@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.numeProiectField = new System.Windows.Forms.TextBox();
+            this.NumeProiectLabel = new System.Windows.Forms.Label();
             this.panelJ = new System.Windows.Forms.Panel();
             this.J_1_2 = new System.Windows.Forms.RadioButton();
             this.J_1_1 = new System.Windows.Forms.RadioButton();
@@ -101,10 +104,8 @@
             this.generateBtn = new System.Windows.Forms.Button();
             this.next_btn = new System.Windows.Forms.Button();
             this.prev_btn = new System.Windows.Forms.Button();
-            this.numeProiectField = new System.Windows.Forms.TextBox();
-            this.NumeProiectLabel = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panelJ.SuspendLayout();
             this.panelI.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -119,7 +120,6 @@
             this.panelB.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelC.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -142,10 +142,37 @@
             this.panel1.Controls.Add(this.next_btn);
             this.panel1.Controls.Add(this.prev_btn);
             this.panel1.Location = new System.Drawing.Point(1, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1733, 550);
             this.panel1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel4.Controls.Add(this.numeProiectField);
+            this.panel4.Location = new System.Drawing.Point(22, 439);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(426, 64);
+            this.panel4.TabIndex = 17;
+            // 
+            // numeProiectField
+            // 
+            this.numeProiectField.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numeProiectField.Location = new System.Drawing.Point(21, 14);
+            this.numeProiectField.Name = "numeProiectField";
+            this.numeProiectField.Size = new System.Drawing.Size(392, 38);
+            this.numeProiectField.TabIndex = 15;
+            // 
+            // NumeProiectLabel
+            // 
+            this.NumeProiectLabel.AutoSize = true;
+            this.NumeProiectLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NumeProiectLabel.Location = new System.Drawing.Point(73, 393);
+            this.NumeProiectLabel.Name = "NumeProiectLabel";
+            this.NumeProiectLabel.Size = new System.Drawing.Size(304, 39);
+            this.NumeProiectLabel.TabIndex = 16;
+            this.NumeProiectLabel.Text = "Numele Proiectului";
             // 
             // panelJ
             // 
@@ -154,7 +181,7 @@
             this.panelJ.Controls.Add(this.label25);
             this.panelJ.Controls.Add(this.label28);
             this.panelJ.Location = new System.Drawing.Point(0, 0);
-            this.panelJ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelJ.Margin = new System.Windows.Forms.Padding(4);
             this.panelJ.Name = "panelJ";
             this.panelJ.Size = new System.Drawing.Size(1725, 311);
             this.panelJ.TabIndex = 14;
@@ -164,7 +191,7 @@
             this.J_1_2.AutoSize = true;
             this.J_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.J_1_2.Location = new System.Drawing.Point(133, 90);
-            this.J_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.J_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.J_1_2.Name = "J_1_2";
             this.J_1_2.Size = new System.Drawing.Size(65, 33);
             this.J_1_2.TabIndex = 3;
@@ -177,7 +204,7 @@
             this.J_1_1.AutoSize = true;
             this.J_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.J_1_1.Location = new System.Drawing.Point(17, 89);
-            this.J_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.J_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.J_1_1.Name = "J_1_1";
             this.J_1_1.Size = new System.Drawing.Size(64, 33);
             this.J_1_1.TabIndex = 2;
@@ -200,7 +227,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label28.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label28.Location = new System.Drawing.Point(4, 6);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
@@ -216,7 +243,7 @@
             this.panelI.Controls.Add(this.panel6);
             this.panelI.Controls.Add(this.label23);
             this.panelI.Location = new System.Drawing.Point(1, 1);
-            this.panelI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelI.Margin = new System.Windows.Forms.Padding(4);
             this.panelI.Name = "panelI";
             this.panelI.Size = new System.Drawing.Size(1725, 311);
             this.panelI.TabIndex = 13;
@@ -226,7 +253,7 @@
             this.I_1_2.AutoSize = true;
             this.I_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.I_1_2.Location = new System.Drawing.Point(133, 90);
-            this.I_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.I_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.I_1_2.Name = "I_1_2";
             this.I_1_2.Size = new System.Drawing.Size(65, 33);
             this.I_1_2.TabIndex = 3;
@@ -239,7 +266,7 @@
             this.I_1_1.AutoSize = true;
             this.I_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.I_1_1.Location = new System.Drawing.Point(17, 89);
-            this.I_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.I_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.I_1_1.Name = "I_1_1";
             this.I_1_1.Size = new System.Drawing.Size(64, 33);
             this.I_1_1.TabIndex = 2;
@@ -266,7 +293,7 @@
             this.panel6.Controls.Add(this.I_2_1);
             this.panel6.Controls.Add(this.label22);
             this.panel6.Location = new System.Drawing.Point(9, 127);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1713, 159);
             this.panel6.TabIndex = 4;
@@ -287,7 +314,7 @@
             this.I_2_2.AutoSize = true;
             this.I_2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.I_2_2.Location = new System.Drawing.Point(123, 60);
-            this.I_2_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.I_2_2.Margin = new System.Windows.Forms.Padding(4);
             this.I_2_2.Name = "I_2_2";
             this.I_2_2.Size = new System.Drawing.Size(65, 33);
             this.I_2_2.TabIndex = 6;
@@ -300,7 +327,7 @@
             this.I_2_1.AutoSize = true;
             this.I_2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.I_2_1.Location = new System.Drawing.Point(8, 60);
-            this.I_2_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.I_2_1.Margin = new System.Windows.Forms.Padding(4);
             this.I_2_1.Name = "I_2_1";
             this.I_2_1.Size = new System.Drawing.Size(64, 33);
             this.I_2_1.TabIndex = 5;
@@ -324,7 +351,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label23.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label23.Location = new System.Drawing.Point(4, 6);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
@@ -340,7 +367,7 @@
             this.panelH.Controls.Add(this.panel5);
             this.panelH.Controls.Add(this.label20);
             this.panelH.Location = new System.Drawing.Point(4, 0);
-            this.panelH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelH.Margin = new System.Windows.Forms.Padding(4);
             this.panelH.Name = "panelH";
             this.panelH.Size = new System.Drawing.Size(1725, 311);
             this.panelH.TabIndex = 12;
@@ -350,7 +377,7 @@
             this.H_1_2.AutoSize = true;
             this.H_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.H_1_2.Location = new System.Drawing.Point(133, 90);
-            this.H_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.H_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.H_1_2.Name = "H_1_2";
             this.H_1_2.Size = new System.Drawing.Size(65, 33);
             this.H_1_2.TabIndex = 3;
@@ -363,7 +390,7 @@
             this.H_1_1.AutoSize = true;
             this.H_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.H_1_1.Location = new System.Drawing.Point(17, 89);
-            this.H_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.H_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.H_1_1.Name = "H_1_1";
             this.H_1_1.Size = new System.Drawing.Size(64, 33);
             this.H_1_1.TabIndex = 2;
@@ -388,7 +415,7 @@
             this.panel5.Controls.Add(this.H_2_1);
             this.panel5.Controls.Add(this.label14);
             this.panel5.Location = new System.Drawing.Point(9, 127);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1713, 159);
             this.panel5.TabIndex = 4;
@@ -398,7 +425,7 @@
             this.H_2_2.AutoSize = true;
             this.H_2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.H_2_2.Location = new System.Drawing.Point(123, 33);
-            this.H_2_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.H_2_2.Margin = new System.Windows.Forms.Padding(4);
             this.H_2_2.Name = "H_2_2";
             this.H_2_2.Size = new System.Drawing.Size(65, 33);
             this.H_2_2.TabIndex = 6;
@@ -411,7 +438,7 @@
             this.H_2_1.AutoSize = true;
             this.H_2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.H_2_1.Location = new System.Drawing.Point(9, 33);
-            this.H_2_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.H_2_1.Margin = new System.Windows.Forms.Padding(4);
             this.H_2_1.Name = "H_2_1";
             this.H_2_1.Size = new System.Drawing.Size(64, 33);
             this.H_2_1.TabIndex = 5;
@@ -435,7 +462,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label20.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label20.Location = new System.Drawing.Point(4, 6);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
@@ -450,7 +477,7 @@
             this.panelG.Controls.Add(this.label17);
             this.panelG.Controls.Add(this.label18);
             this.panelG.Location = new System.Drawing.Point(0, 0);
-            this.panelG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelG.Margin = new System.Windows.Forms.Padding(4);
             this.panelG.Name = "panelG";
             this.panelG.Size = new System.Drawing.Size(1725, 311);
             this.panelG.TabIndex = 11;
@@ -460,7 +487,7 @@
             this.G_1_2.AutoSize = true;
             this.G_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G_1_2.Location = new System.Drawing.Point(208, 89);
-            this.G_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.G_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.G_1_2.Name = "G_1_2";
             this.G_1_2.Size = new System.Drawing.Size(229, 33);
             this.G_1_2.TabIndex = 3;
@@ -473,7 +500,7 @@
             this.G_1_1.AutoSize = true;
             this.G_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G_1_1.Location = new System.Drawing.Point(17, 89);
-            this.G_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.G_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.G_1_1.Name = "G_1_1";
             this.G_1_1.Size = new System.Drawing.Size(176, 33);
             this.G_1_1.TabIndex = 2;
@@ -496,7 +523,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label18.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label18.Location = new System.Drawing.Point(4, 6);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
@@ -508,10 +535,10 @@
             // 
             this.panelF.Controls.Add(this.F_1_2);
             this.panelF.Controls.Add(this.F_1_1);
+            this.panelF.Controls.Add(this.label12);
             this.panelF.Controls.Add(this.label15);
-            this.panelF.Controls.Add(this.label16);
             this.panelF.Location = new System.Drawing.Point(1, 1);
-            this.panelF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelF.Margin = new System.Windows.Forms.Padding(4);
             this.panelF.Name = "panelF";
             this.panelF.Size = new System.Drawing.Size(1725, 311);
             this.panelF.TabIndex = 10;
@@ -521,7 +548,7 @@
             this.F_1_2.AutoSize = true;
             this.F_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F_1_2.Location = new System.Drawing.Point(132, 89);
-            this.F_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.F_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.F_1_2.Name = "F_1_2";
             this.F_1_2.Size = new System.Drawing.Size(65, 33);
             this.F_1_2.TabIndex = 3;
@@ -534,7 +561,7 @@
             this.F_1_1.AutoSize = true;
             this.F_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F_1_1.Location = new System.Drawing.Point(17, 89);
-            this.F_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.F_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.F_1_1.Name = "F_1_1";
             this.F_1_1.Size = new System.Drawing.Size(64, 33);
             this.F_1_1.TabIndex = 2;
@@ -546,6 +573,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(12, 55);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
@@ -558,23 +586,23 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label16.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label16.Location = new System.Drawing.Point(4, 6);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(334, 39);
+            this.label16.Size = new System.Drawing.Size(336, 39);
             this.label16.TabIndex = 0;
-            this.label16.Text = "F. Mărimea echipei ";
+            this.label16.Text = "E. Mărimea echipei ";
             // 
             // panelE
             // 
+            this.panelE.Controls.Add(this.label16);
             this.panelE.Controls.Add(this.panel3);
             this.panelE.Controls.Add(this.E_1_2);
             this.panelE.Controls.Add(this.E_1_1);
             this.panelE.Controls.Add(this.label11);
-            this.panelE.Controls.Add(this.label12);
             this.panelE.Location = new System.Drawing.Point(4, 0);
-            this.panelE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelE.Margin = new System.Windows.Forms.Padding(4);
             this.panelE.Name = "panelE";
             this.panelE.Size = new System.Drawing.Size(1725, 311);
             this.panelE.TabIndex = 9;
@@ -585,7 +613,7 @@
             this.panel3.Controls.Add(this.E_2_1);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Location = new System.Drawing.Point(8, 130);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1713, 159);
             this.panel3.TabIndex = 4;
@@ -595,7 +623,7 @@
             this.E_2_2.AutoSize = true;
             this.E_2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E_2_2.Location = new System.Drawing.Point(124, 33);
-            this.E_2_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.E_2_2.Margin = new System.Windows.Forms.Padding(4);
             this.E_2_2.Name = "E_2_2";
             this.E_2_2.Size = new System.Drawing.Size(65, 33);
             this.E_2_2.TabIndex = 6;
@@ -608,7 +636,7 @@
             this.E_2_1.AutoSize = true;
             this.E_2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E_2_1.Location = new System.Drawing.Point(9, 33);
-            this.E_2_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.E_2_1.Margin = new System.Windows.Forms.Padding(4);
             this.E_2_1.Name = "E_2_1";
             this.E_2_1.Size = new System.Drawing.Size(64, 33);
             this.E_2_1.TabIndex = 5;
@@ -633,7 +661,7 @@
             this.E_1_2.AutoSize = true;
             this.E_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E_1_2.Location = new System.Drawing.Point(132, 89);
-            this.E_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.E_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.E_1_2.Name = "E_1_2";
             this.E_1_2.Size = new System.Drawing.Size(65, 33);
             this.E_1_2.TabIndex = 3;
@@ -646,7 +674,7 @@
             this.E_1_1.AutoSize = true;
             this.E_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E_1_1.Location = new System.Drawing.Point(17, 89);
-            this.E_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.E_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.E_1_1.Name = "E_1_1";
             this.E_1_1.Size = new System.Drawing.Size(64, 33);
             this.E_1_1.TabIndex = 2;
@@ -670,13 +698,13 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label12.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label12.Location = new System.Drawing.Point(4, 6);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(589, 39);
+            this.label12.Size = new System.Drawing.Size(587, 39);
             this.label12.TabIndex = 0;
-            this.label12.Text = "E. Managementul părților interesate";
+            this.label12.Text = "F. Managementul părților interesate";
             // 
             // panelD
             // 
@@ -685,7 +713,7 @@
             this.panelD.Controls.Add(this.label7);
             this.panelD.Controls.Add(this.label10);
             this.panelD.Location = new System.Drawing.Point(0, 0);
-            this.panelD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelD.Margin = new System.Windows.Forms.Padding(4);
             this.panelD.Name = "panelD";
             this.panelD.Size = new System.Drawing.Size(1725, 311);
             this.panelD.TabIndex = 8;
@@ -695,7 +723,7 @@
             this.D_1_2.AutoSize = true;
             this.D_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D_1_2.Location = new System.Drawing.Point(132, 89);
-            this.D_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.D_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.D_1_2.Name = "D_1_2";
             this.D_1_2.Size = new System.Drawing.Size(112, 33);
             this.D_1_2.TabIndex = 3;
@@ -708,7 +736,7 @@
             this.D_1_1.AutoSize = true;
             this.D_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D_1_1.Location = new System.Drawing.Point(17, 89);
-            this.D_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.D_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.D_1_1.Name = "D_1_1";
             this.D_1_1.Size = new System.Drawing.Size(66, 33);
             this.D_1_1.TabIndex = 2;
@@ -731,7 +759,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label10.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label10.Location = new System.Drawing.Point(4, 6);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
@@ -746,7 +774,7 @@
             this.panelA.Controls.Add(this.label2);
             this.panelA.Controls.Add(this.label1);
             this.panelA.Location = new System.Drawing.Point(4, 4);
-            this.panelA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelA.Margin = new System.Windows.Forms.Padding(4);
             this.panelA.Name = "panelA";
             this.panelA.Size = new System.Drawing.Size(1725, 311);
             this.panelA.TabIndex = 0;
@@ -756,7 +784,7 @@
             this.A_1_2.AutoSize = true;
             this.A_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A_1_2.Location = new System.Drawing.Point(132, 89);
-            this.A_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.A_1_2.Name = "A_1_2";
             this.A_1_2.Size = new System.Drawing.Size(112, 33);
             this.A_1_2.TabIndex = 3;
@@ -769,7 +797,7 @@
             this.A_1_1.AutoSize = true;
             this.A_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A_1_1.Location = new System.Drawing.Point(17, 89);
-            this.A_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.A_1_1.Name = "A_1_1";
             this.A_1_1.Size = new System.Drawing.Size(66, 33);
             this.A_1_1.TabIndex = 2;
@@ -792,7 +820,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label1.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label1.Location = new System.Drawing.Point(4, 6);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -808,7 +836,7 @@
             this.panelB.Controls.Add(this.label3);
             this.panelB.Controls.Add(this.label4);
             this.panelB.Location = new System.Drawing.Point(0, 0);
-            this.panelB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelB.Margin = new System.Windows.Forms.Padding(4);
             this.panelB.Name = "panelB";
             this.panelB.Size = new System.Drawing.Size(1729, 315);
             this.panelB.TabIndex = 4;
@@ -819,7 +847,7 @@
             this.panel2.Controls.Add(this.B_2_1);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(4, 130);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1725, 110);
             this.panel2.TabIndex = 4;
@@ -829,7 +857,7 @@
             this.B_2_2.AutoSize = true;
             this.B_2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_2_2.Location = new System.Drawing.Point(128, 33);
-            this.B_2_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B_2_2.Margin = new System.Windows.Forms.Padding(4);
             this.B_2_2.Name = "B_2_2";
             this.B_2_2.Size = new System.Drawing.Size(65, 33);
             this.B_2_2.TabIndex = 4;
@@ -842,7 +870,7 @@
             this.B_2_1.AutoSize = true;
             this.B_2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_2_1.Location = new System.Drawing.Point(13, 33);
-            this.B_2_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B_2_1.Margin = new System.Windows.Forms.Padding(4);
             this.B_2_1.Name = "B_2_1";
             this.B_2_1.Size = new System.Drawing.Size(64, 33);
             this.B_2_1.TabIndex = 3;
@@ -867,7 +895,7 @@
             this.B_1_2.AutoSize = true;
             this.B_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_1_2.Location = new System.Drawing.Point(132, 89);
-            this.B_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.B_1_2.Name = "B_1_2";
             this.B_1_2.Size = new System.Drawing.Size(65, 33);
             this.B_1_2.TabIndex = 3;
@@ -880,7 +908,7 @@
             this.B_1_1.AutoSize = true;
             this.B_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_1_1.Location = new System.Drawing.Point(17, 89);
-            this.B_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.B_1_1.Name = "B_1_1";
             this.B_1_1.Size = new System.Drawing.Size(64, 33);
             this.B_1_1.TabIndex = 2;
@@ -904,7 +932,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label4.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label4.Location = new System.Drawing.Point(4, 6);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -919,7 +947,7 @@
             this.panelC.Controls.Add(this.label8);
             this.panelC.Controls.Add(this.label9);
             this.panelC.Location = new System.Drawing.Point(0, 0);
-            this.panelC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelC.Margin = new System.Windows.Forms.Padding(4);
             this.panelC.Name = "panelC";
             this.panelC.Size = new System.Drawing.Size(1725, 244);
             this.panelC.TabIndex = 7;
@@ -929,7 +957,7 @@
             this.C_1_2.AutoSize = true;
             this.C_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C_1_2.Location = new System.Drawing.Point(368, 89);
-            this.C_1_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C_1_2.Margin = new System.Windows.Forms.Padding(4);
             this.C_1_2.Name = "C_1_2";
             this.C_1_2.Size = new System.Drawing.Size(189, 33);
             this.C_1_2.TabIndex = 3;
@@ -942,7 +970,7 @@
             this.C_1_1.AutoSize = true;
             this.C_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C_1_1.Location = new System.Drawing.Point(17, 89);
-            this.C_1_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C_1_1.Margin = new System.Windows.Forms.Padding(4);
             this.C_1_1.Name = "C_1_1";
             this.C_1_1.Size = new System.Drawing.Size(210, 33);
             this.C_1_1.TabIndex = 2;
@@ -966,7 +994,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label9.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label9.Location = new System.Drawing.Point(4, 6);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
@@ -1002,7 +1030,7 @@
             this.generateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generateBtn.ForeColor = System.Drawing.Color.White;
             this.generateBtn.Location = new System.Drawing.Point(540, 439);
-            this.generateBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.generateBtn.Margin = new System.Windows.Forms.Padding(4);
             this.generateBtn.Name = "generateBtn";
             this.generateBtn.Size = new System.Drawing.Size(427, 64);
             this.generateBtn.TabIndex = 3;
@@ -1016,7 +1044,7 @@
             this.next_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.next_btn.ForeColor = System.Drawing.Color.White;
             this.next_btn.Location = new System.Drawing.Point(757, 368);
-            this.next_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.next_btn.Margin = new System.Windows.Forms.Padding(4);
             this.next_btn.Name = "next_btn";
             this.next_btn.Size = new System.Drawing.Size(209, 64);
             this.next_btn.TabIndex = 2;
@@ -1030,7 +1058,7 @@
             this.prev_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prev_btn.ForeColor = System.Drawing.Color.White;
             this.prev_btn.Location = new System.Drawing.Point(540, 368);
-            this.prev_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.prev_btn.Margin = new System.Windows.Forms.Padding(4);
             this.prev_btn.Name = "prev_btn";
             this.prev_btn.Size = new System.Drawing.Size(209, 64);
             this.prev_btn.TabIndex = 1;
@@ -1038,45 +1066,20 @@
             this.prev_btn.UseVisualStyleBackColor = false;
             this.prev_btn.Click += new System.EventHandler(this.prev_btn_Click);
             // 
-            // numeProiectField
-            // 
-            this.numeProiectField.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numeProiectField.Location = new System.Drawing.Point(21, 14);
-            this.numeProiectField.Name = "numeProiectField";
-            this.numeProiectField.Size = new System.Drawing.Size(392, 38);
-            this.numeProiectField.TabIndex = 15;
-            // 
-            // NumeProiectLabel
-            // 
-            this.NumeProiectLabel.AutoSize = true;
-            this.NumeProiectLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeProiectLabel.Location = new System.Drawing.Point(73, 393);
-            this.NumeProiectLabel.Name = "NumeProiectLabel";
-            this.NumeProiectLabel.Size = new System.Drawing.Size(304, 39);
-            this.NumeProiectLabel.TabIndex = 16;
-            this.NumeProiectLabel.Text = "Numele Proiectului";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel4.Controls.Add(this.numeProiectField);
-            this.panel4.Location = new System.Drawing.Point(22, 439);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(426, 64);
-            this.panel4.TabIndex = 17;
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1728, 550);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainWindow";
             this.Text = "PJM Methodology Picker";
             this.Load += new System.EventHandler(this.MainWindow_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panelJ.ResumeLayout(false);
             this.panelJ.PerformLayout();
             this.panelI.ResumeLayout(false);
@@ -1105,8 +1108,6 @@
             this.panel2.PerformLayout();
             this.panelC.ResumeLayout(false);
             this.panelC.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
