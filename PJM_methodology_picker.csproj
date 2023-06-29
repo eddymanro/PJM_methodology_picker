@@ -228,6 +228,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
+    <None Include="Pictures\LogoNexus.png" />
+    <None Include="Pictures\LogoNexus.jpg" />
     <None Include="Pictures\pjm_pic.jpg" />
     <None Include="Pictures\graph_pic.jpg" />
   </ItemGroup>

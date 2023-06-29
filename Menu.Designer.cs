@@ -1,4 +1,7 @@
-﻿namespace PJM_methodology_picker
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace PJM_methodology_picker
 {
     partial class Menu
     {
@@ -30,17 +33,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.basePanel = new System.Windows.Forms.Panel();
+            this.logoBox = new System.Windows.Forms.PictureBox();
             this.titleLabel = new System.Windows.Forms.Label();
             this.viewDbBtn = new System.Windows.Forms.Button();
             this.quitBtn = new System.Windows.Forms.Button();
             this.startBtn = new System.Windows.Forms.Button();
             this.basePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.SuspendLayout();
             // 
             // basePanel
             // 
             this.basePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("basePanel.BackgroundImage")));
             this.basePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.basePanel.Controls.Add(this.logoBox);
             this.basePanel.Controls.Add(this.titleLabel);
             this.basePanel.Controls.Add(this.viewDbBtn);
             this.basePanel.Controls.Add(this.quitBtn);
@@ -50,12 +56,24 @@
             this.basePanel.Size = new System.Drawing.Size(641, 373);
             this.basePanel.TabIndex = 0;
             // 
+            // logoBox
+            // 
+            this.logoBox.BackgroundImage = global::PJM_methodology_picker.Properties.Resources.LogoNexus1;
+            this.logoBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.logoBox.BackColor = Color.Transparent;
+            this.logoBox.Location = new System.Drawing.Point(11, 10);
+            this.logoBox.Name = "logoBox";
+            this.logoBox.Size = new System.Drawing.Size(112, 103);
+            this.logoBox.TabIndex = 4;
+            this.logoBox.TabStop = false;
+            // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
+            this.titleLabel.BackColor = Color.Transparent;
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(0)))), ((int)(((byte)(139)))));
-            this.titleLabel.Location = new System.Drawing.Point(45, 60);
+            this.titleLabel.Location = new System.Drawing.Point(14, 116);
             this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(108, 39);
@@ -111,6 +129,7 @@
             this.Text = "Nexus";
             this.basePanel.ResumeLayout(false);
             this.basePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -122,5 +141,6 @@
         private System.Windows.Forms.Button viewDbBtn;
         private System.Windows.Forms.Button quitBtn;
         private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.PictureBox logoBox;
     }
 }

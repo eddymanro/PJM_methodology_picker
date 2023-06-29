@@ -1,4 +1,6 @@
-﻿namespace PJM_methodology_picker
+﻿using System.Drawing;
+
+namespace PJM_methodology_picker
 {
     partial class MainWindow
     {
@@ -29,6 +31,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.titleLabel = new System.Windows.Forms.Label();
+            this.logoBox = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.numeProiectField = new System.Windows.Forms.TextBox();
             this.NumeProiectLabel = new System.Windows.Forms.Label();
@@ -105,6 +109,7 @@
             this.next_btn = new System.Windows.Forms.Button();
             this.prev_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.panel4.SuspendLayout();
             this.panelJ.SuspendLayout();
             this.panelI.SuspendLayout();
@@ -124,6 +129,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.titleLabel);
+            this.panel1.Controls.Add(this.logoBox);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.NumeProiectLabel);
             this.panel1.Controls.Add(this.panelJ);
@@ -146,12 +153,36 @@
             this.panel1.Size = new System.Drawing.Size(1300, 447);
             this.panel1.TabIndex = 0;
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.BackColor = System.Drawing.Color.Transparent;
+            this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(0)))), ((int)(((byte)(139)))));
+            this.titleLabel.Location = new System.Drawing.Point(1149, 379);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(84, 30);
+            this.titleLabel.TabIndex = 19;
+            this.titleLabel.Text = "Nexus";
+            // 
+            // logoBox
+            // 
+            this.logoBox.BackColor = System.Drawing.Color.Transparent;
+            this.logoBox.BackgroundImage = global::PJM_methodology_picker.Properties.Resources.LogoNexus1;
+            this.logoBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.logoBox.Location = new System.Drawing.Point(1146, 299);
+            this.logoBox.Name = "logoBox";
+            this.logoBox.Size = new System.Drawing.Size(87, 75);
+            this.logoBox.TabIndex = 18;
+            this.logoBox.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Indigo;
             this.panel4.Controls.Add(this.numeProiectField);
             this.panel4.Location = new System.Drawing.Point(16, 357);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(320, 52);
             this.panel4.TabIndex = 17;
@@ -160,7 +191,7 @@
             // 
             this.numeProiectField.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numeProiectField.Location = new System.Drawing.Point(12, 10);
-            this.numeProiectField.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numeProiectField.Margin = new System.Windows.Forms.Padding(2);
             this.numeProiectField.Name = "numeProiectField";
             this.numeProiectField.Size = new System.Drawing.Size(295, 33);
             this.numeProiectField.TabIndex = 15;
@@ -1007,6 +1038,7 @@
             this.Load += new System.EventHandler(this.MainWindow_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panelJ.ResumeLayout(false);
@@ -1119,6 +1151,8 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox numeProiectField;
         private System.Windows.Forms.Label NumeProiectLabel;
+        private System.Windows.Forms.PictureBox logoBox;
+        private System.Windows.Forms.Label titleLabel;
     }
 }
 
