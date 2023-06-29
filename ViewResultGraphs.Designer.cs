@@ -110,7 +110,7 @@
             this.basePanel.Controls.Add(this.pictureBox);
             this.basePanel.Controls.Add(this.inchideBtn);
             this.basePanel.Location = new System.Drawing.Point(0, 1);
-            this.basePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.basePanel.Margin = new System.Windows.Forms.Padding(2);
             this.basePanel.Name = "basePanel";
             this.basePanel.Size = new System.Drawing.Size(1005, 496);
             this.basePanel.TabIndex = 0;
@@ -120,7 +120,7 @@
             this.I_AW.Controls.Add(this.panel9);
             this.I_AW.Controls.Add(this.panel10);
             this.I_AW.Location = new System.Drawing.Point(803, 44);
-            this.I_AW.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I_AW.Margin = new System.Windows.Forms.Padding(2);
             this.I_AW.Name = "I_AW";
             this.I_AW.Size = new System.Drawing.Size(62, 295);
             this.I_AW.TabIndex = 26;
@@ -129,7 +129,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.YellowGreen;
             this.panel9.Location = new System.Drawing.Point(8, 0);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(47, 150);
             this.panel9.TabIndex = 23;
@@ -138,7 +138,7 @@
             // 
             this.panel10.BackColor = System.Drawing.Color.MediumOrchid;
             this.panel10.Location = new System.Drawing.Point(8, 148);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(47, 147);
             this.panel10.TabIndex = 0;
@@ -148,7 +148,7 @@
             this.H_AW.Controls.Add(this.panel6);
             this.H_AW.Controls.Add(this.panel7);
             this.H_AW.Location = new System.Drawing.Point(712, 45);
-            this.H_AW.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H_AW.Margin = new System.Windows.Forms.Padding(2);
             this.H_AW.Name = "H_AW";
             this.H_AW.Size = new System.Drawing.Size(62, 295);
             this.H_AW.TabIndex = 25;
@@ -157,7 +157,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.YellowGreen;
             this.panel6.Location = new System.Drawing.Point(8, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(47, 150);
             this.panel6.TabIndex = 23;
@@ -166,7 +166,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.MediumOrchid;
             this.panel7.Location = new System.Drawing.Point(8, 148);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(47, 147);
             this.panel7.TabIndex = 0;
@@ -175,8 +175,8 @@
             // 
             this.E_AW.Controls.Add(this.panel4);
             this.E_AW.Controls.Add(this.panel5);
-            this.E_AW.Location = new System.Drawing.Point(440, 45);
-            this.E_AW.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E_AW.Location = new System.Drawing.Point(440, 44);
+            this.E_AW.Margin = new System.Windows.Forms.Padding(2);
             this.E_AW.Name = "E_AW";
             this.E_AW.Size = new System.Drawing.Size(62, 295);
             this.E_AW.TabIndex = 24;
@@ -185,7 +185,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.YellowGreen;
             this.panel4.Location = new System.Drawing.Point(8, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(47, 150);
             this.panel4.TabIndex = 23;
@@ -194,7 +194,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.MediumOrchid;
             this.panel5.Location = new System.Drawing.Point(8, 148);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(47, 147);
             this.panel5.TabIndex = 0;
@@ -204,7 +204,7 @@
             this.B_AW.Controls.Add(this.panel1);
             this.B_AW.Controls.Add(this.panel2);
             this.B_AW.Location = new System.Drawing.Point(172, 44);
-            this.B_AW.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B_AW.Margin = new System.Windows.Forms.Padding(2);
             this.B_AW.Name = "B_AW";
             this.B_AW.Size = new System.Drawing.Size(62, 295);
             this.B_AW.TabIndex = 22;
@@ -213,7 +213,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.YellowGreen;
             this.panel1.Location = new System.Drawing.Point(8, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(47, 150);
             this.panel1.TabIndex = 23;
@@ -222,7 +222,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumOrchid;
             this.panel2.Location = new System.Drawing.Point(8, 148);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(47, 147);
             this.panel2.TabIndex = 0;
@@ -231,7 +231,7 @@
             // 
             this.I_W.BackColor = System.Drawing.Color.YellowGreen;
             this.I_W.Location = new System.Drawing.Point(812, 45);
-            this.I_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I_W.Margin = new System.Windows.Forms.Padding(2);
             this.I_W.Name = "I_W";
             this.I_W.Size = new System.Drawing.Size(47, 295);
             this.I_W.TabIndex = 21;
@@ -240,7 +240,7 @@
             // 
             this.H_W.BackColor = System.Drawing.Color.YellowGreen;
             this.H_W.Location = new System.Drawing.Point(720, 45);
-            this.H_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H_W.Margin = new System.Windows.Forms.Padding(2);
             this.H_W.Name = "H_W";
             this.H_W.Size = new System.Drawing.Size(47, 295);
             this.H_W.TabIndex = 20;
@@ -249,7 +249,7 @@
             // 
             this.E_W.BackColor = System.Drawing.Color.YellowGreen;
             this.E_W.Location = new System.Drawing.Point(446, 45);
-            this.E_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E_W.Margin = new System.Windows.Forms.Padding(2);
             this.E_W.Name = "E_W";
             this.E_W.Size = new System.Drawing.Size(47, 295);
             this.E_W.TabIndex = 19;
@@ -258,7 +258,7 @@
             // 
             this.B_W.BackColor = System.Drawing.Color.YellowGreen;
             this.B_W.Location = new System.Drawing.Point(181, 45);
-            this.B_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B_W.Margin = new System.Windows.Forms.Padding(2);
             this.B_W.Name = "B_W";
             this.B_W.Size = new System.Drawing.Size(47, 295);
             this.B_W.TabIndex = 18;
@@ -267,7 +267,7 @@
             // 
             this.J_W.BackColor = System.Drawing.Color.YellowGreen;
             this.J_W.Location = new System.Drawing.Point(898, 45);
-            this.J_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J_W.Margin = new System.Windows.Forms.Padding(2);
             this.J_W.Name = "J_W";
             this.J_W.Size = new System.Drawing.Size(47, 295);
             this.J_W.TabIndex = 17;
@@ -276,7 +276,7 @@
             // 
             this.F_W.BackColor = System.Drawing.Color.YellowGreen;
             this.F_W.Location = new System.Drawing.Point(537, 45);
-            this.F_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F_W.Margin = new System.Windows.Forms.Padding(2);
             this.F_W.Name = "F_W";
             this.F_W.Size = new System.Drawing.Size(47, 295);
             this.F_W.TabIndex = 17;
@@ -285,7 +285,7 @@
             // 
             this.G_W.BackColor = System.Drawing.Color.YellowGreen;
             this.G_W.Location = new System.Drawing.Point(626, 45);
-            this.G_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G_W.Margin = new System.Windows.Forms.Padding(2);
             this.G_W.Name = "G_W";
             this.G_W.Size = new System.Drawing.Size(47, 295);
             this.G_W.TabIndex = 17;
@@ -294,7 +294,7 @@
             // 
             this.D_W.BackColor = System.Drawing.Color.YellowGreen;
             this.D_W.Location = new System.Drawing.Point(362, 45);
-            this.D_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D_W.Margin = new System.Windows.Forms.Padding(2);
             this.D_W.Name = "D_W";
             this.D_W.Size = new System.Drawing.Size(47, 295);
             this.D_W.TabIndex = 16;
@@ -303,7 +303,7 @@
             // 
             this.C_W.BackColor = System.Drawing.Color.YellowGreen;
             this.C_W.Location = new System.Drawing.Point(271, 45);
-            this.C_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C_W.Margin = new System.Windows.Forms.Padding(2);
             this.C_W.Name = "C_W";
             this.C_W.Size = new System.Drawing.Size(47, 295);
             this.C_W.TabIndex = 15;
@@ -312,7 +312,7 @@
             // 
             this.A_W.BackColor = System.Drawing.Color.YellowGreen;
             this.A_W.Location = new System.Drawing.Point(94, 45);
-            this.A_W.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A_W.Margin = new System.Windows.Forms.Padding(2);
             this.A_W.Name = "A_W";
             this.A_W.Size = new System.Drawing.Size(47, 295);
             this.A_W.TabIndex = 14;
@@ -321,7 +321,7 @@
             // 
             this.A_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.A_A.Location = new System.Drawing.Point(94, 45);
-            this.A_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A_A.Margin = new System.Windows.Forms.Padding(2);
             this.A_A.Name = "A_A";
             this.A_A.Size = new System.Drawing.Size(47, 295);
             this.A_A.TabIndex = 4;
@@ -330,7 +330,7 @@
             // 
             this.J_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.J_A.Location = new System.Drawing.Point(898, 45);
-            this.J_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J_A.Margin = new System.Windows.Forms.Padding(2);
             this.J_A.Name = "J_A";
             this.J_A.Size = new System.Drawing.Size(47, 295);
             this.J_A.TabIndex = 13;
@@ -339,7 +339,7 @@
             // 
             this.I_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.I_A.Location = new System.Drawing.Point(812, 45);
-            this.I_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I_A.Margin = new System.Windows.Forms.Padding(2);
             this.I_A.Name = "I_A";
             this.I_A.Size = new System.Drawing.Size(47, 295);
             this.I_A.TabIndex = 12;
@@ -348,7 +348,7 @@
             // 
             this.H_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.H_A.Location = new System.Drawing.Point(720, 45);
-            this.H_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H_A.Margin = new System.Windows.Forms.Padding(2);
             this.H_A.Name = "H_A";
             this.H_A.Size = new System.Drawing.Size(47, 295);
             this.H_A.TabIndex = 11;
@@ -357,7 +357,7 @@
             // 
             this.G_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.G_A.Location = new System.Drawing.Point(626, 45);
-            this.G_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G_A.Margin = new System.Windows.Forms.Padding(2);
             this.G_A.Name = "G_A";
             this.G_A.Size = new System.Drawing.Size(47, 295);
             this.G_A.TabIndex = 5;
@@ -366,7 +366,7 @@
             // 
             this.F_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.F_A.Location = new System.Drawing.Point(537, 45);
-            this.F_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F_A.Margin = new System.Windows.Forms.Padding(2);
             this.F_A.Name = "F_A";
             this.F_A.Size = new System.Drawing.Size(47, 295);
             this.F_A.TabIndex = 10;
@@ -375,7 +375,7 @@
             // 
             this.E_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.E_A.Location = new System.Drawing.Point(446, 45);
-            this.E_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E_A.Margin = new System.Windows.Forms.Padding(2);
             this.E_A.Name = "E_A";
             this.E_A.Size = new System.Drawing.Size(47, 295);
             this.E_A.TabIndex = 5;
@@ -384,7 +384,7 @@
             // 
             this.D_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.D_A.Location = new System.Drawing.Point(362, 45);
-            this.D_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D_A.Margin = new System.Windows.Forms.Padding(2);
             this.D_A.Name = "D_A";
             this.D_A.Size = new System.Drawing.Size(47, 295);
             this.D_A.TabIndex = 9;
@@ -393,7 +393,7 @@
             // 
             this.C_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.C_A.Location = new System.Drawing.Point(271, 45);
-            this.C_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C_A.Margin = new System.Windows.Forms.Padding(2);
             this.C_A.Name = "C_A";
             this.C_A.Size = new System.Drawing.Size(47, 295);
             this.C_A.TabIndex = 8;
@@ -402,7 +402,7 @@
             // 
             this.B_A.BackColor = System.Drawing.Color.MediumOrchid;
             this.B_A.Location = new System.Drawing.Point(181, 45);
-            this.B_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B_A.Margin = new System.Windows.Forms.Padding(2);
             this.B_A.Name = "B_A";
             this.B_A.Size = new System.Drawing.Size(47, 295);
             this.B_A.TabIndex = 7;
@@ -412,7 +412,7 @@
             this.legendWaterfallPanel.BackColor = System.Drawing.Color.YellowGreen;
             this.legendWaterfallPanel.Controls.Add(this.label2);
             this.legendWaterfallPanel.Location = new System.Drawing.Point(186, 456);
-            this.legendWaterfallPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.legendWaterfallPanel.Margin = new System.Windows.Forms.Padding(2);
             this.legendWaterfallPanel.Name = "legendWaterfallPanel";
             this.legendWaterfallPanel.Size = new System.Drawing.Size(132, 31);
             this.legendWaterfallPanel.TabIndex = 6;
@@ -433,7 +433,7 @@
             this.legendAgilePanel.BackColor = System.Drawing.Color.MediumOrchid;
             this.legendAgilePanel.Controls.Add(this.label1);
             this.legendAgilePanel.Location = new System.Drawing.Point(9, 455);
-            this.legendAgilePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.legendAgilePanel.Margin = new System.Windows.Forms.Padding(2);
             this.legendAgilePanel.Name = "legendAgilePanel";
             this.legendAgilePanel.Size = new System.Drawing.Size(132, 31);
             this.legendAgilePanel.TabIndex = 5;
@@ -453,7 +453,7 @@
             // 
             this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
             this.pictureBox.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(1000, 448);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -479,7 +479,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 497);
             this.Controls.Add(this.basePanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewResultGraphs";
             this.Text = "Rezultate Grafic";
             this.basePanel.ResumeLayout(false);

@@ -14,16 +14,17 @@ namespace PJM_methodology_picker
 {
     public partial class MainWindow : Form
     {
-        List<Panel> listPanel = new List<Panel>();
         private int idx = 0;
         private int pg_nr = 1;
-        private ConnectToDb connection;
-        private ProjectModel projectData;
+        private List<Panel> listPanel = null;
+        private ConnectToDb connection = null;
+        private ProjectModel projectData = null;
         public MainWindow()
         {
             InitializeComponent();
             panelA.BringToFront();
-            connection = new ConnectToDb();
+            this.listPanel = new List<Panel>();
+            this.connection = new ConnectToDb();
         }
 
         private void generateBtn_Click(object sender, EventArgs e)
@@ -352,7 +353,7 @@ namespace PJM_methodology_picker
         {
             if (idx > 0)
             {
-                listPanel[--idx].BringToFront();
+                this.listPanel[--idx].BringToFront();
                 pg_nr--;
                 pageNr.Text = pg_nr.ToString();
             }
@@ -360,9 +361,9 @@ namespace PJM_methodology_picker
 
         private void next_btn_Click(object sender, EventArgs e)
         {
-            if (idx < listPanel.Count - 1)
+            if (idx < this.listPanel.Count - 1)
             {
-                listPanel[++idx].BringToFront();
+                this.listPanel[++idx].BringToFront();
                 pg_nr++;
                 pageNr.Text = pg_nr.ToString();
             }
@@ -370,17 +371,17 @@ namespace PJM_methodology_picker
 
         private void MainWindow_Load_1(object sender, EventArgs e)
         {
-            listPanel.Add(panelA);
-            listPanel.Add(panelB);
-            listPanel.Add(panelC);
-            listPanel.Add(panelD);
-            listPanel.Add(panelE);
-            listPanel.Add(panelF);
-            listPanel.Add(panelG);
-            listPanel.Add(panelH);
-            listPanel.Add(panelI);
-            listPanel.Add(panelJ);
-            listPanel[idx].BringToFront();
+            this.listPanel.Add(panelA);
+            this.listPanel.Add(panelB);
+            this.listPanel.Add(panelC);
+            this.listPanel.Add(panelD);
+            this.listPanel.Add(panelE);
+            this.listPanel.Add(panelF);
+            this.listPanel.Add(panelG);
+            this.listPanel.Add(panelH);
+            this.listPanel.Add(panelI);
+            this.listPanel.Add(panelJ);
+            this.listPanel[idx].BringToFront();
         }
     }
 }

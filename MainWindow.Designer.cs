@@ -997,7 +997,7 @@ namespace PJM_methodology_picker
             this.generateBtn.Name = "generateBtn";
             this.generateBtn.Size = new System.Drawing.Size(320, 52);
             this.generateBtn.TabIndex = 3;
-            this.generateBtn.Text = "Generate";
+            this.generateBtn.Text = "Genereaza Rezultatul";
             this.generateBtn.UseVisualStyleBackColor = false;
             this.generateBtn.Click += new System.EventHandler(this.generateBtn_Click);
             // 
@@ -1010,7 +1010,7 @@ namespace PJM_methodology_picker
             this.next_btn.Name = "next_btn";
             this.next_btn.Size = new System.Drawing.Size(157, 52);
             this.next_btn.TabIndex = 2;
-            this.next_btn.Text = "Next";
+            this.next_btn.Text = "Inainte";
             this.next_btn.UseVisualStyleBackColor = false;
             this.next_btn.Click += new System.EventHandler(this.next_btn_Click);
             // 
@@ -1023,7 +1023,7 @@ namespace PJM_methodology_picker
             this.prev_btn.Name = "prev_btn";
             this.prev_btn.Size = new System.Drawing.Size(157, 52);
             this.prev_btn.TabIndex = 1;
-            this.prev_btn.Text = "Previous";
+            this.prev_btn.Text = "Inapoi";
             this.prev_btn.UseVisualStyleBackColor = false;
             this.prev_btn.Click += new System.EventHandler(this.prev_btn_Click);
             // 
