@@ -46,31 +46,30 @@
             this.basePanel.Controls.Add(this.quitBtn);
             this.basePanel.Controls.Add(this.startBtn);
             this.basePanel.Location = new System.Drawing.Point(1, 2);
-            this.basePanel.Margin = new System.Windows.Forms.Padding(4);
             this.basePanel.Name = "basePanel";
-            this.basePanel.Size = new System.Drawing.Size(855, 459);
+            this.basePanel.Size = new System.Drawing.Size(641, 373);
             this.basePanel.TabIndex = 0;
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(0)))), ((int)(((byte)(139)))));
-            this.titleLabel.Location = new System.Drawing.Point(3, 7);
+            this.titleLabel.Location = new System.Drawing.Point(45, 60);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(293, 46);
+            this.titleLabel.Size = new System.Drawing.Size(108, 39);
             this.titleLabel.TabIndex = 3;
-            this.titleLabel.Text = "Titlul Aplicatiei";
+            this.titleLabel.Text = "Nexus";
             // 
             // viewDbBtn
             // 
             this.viewDbBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(0)))), ((int)(((byte)(139)))));
-            this.viewDbBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDbBtn.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewDbBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.viewDbBtn.Location = new System.Drawing.Point(164, 306);
-            this.viewDbBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.viewDbBtn.Location = new System.Drawing.Point(123, 249);
             this.viewDbBtn.Name = "viewDbBtn";
-            this.viewDbBtn.Size = new System.Drawing.Size(378, 56);
+            this.viewDbBtn.Size = new System.Drawing.Size(284, 46);
             this.viewDbBtn.TabIndex = 2;
             this.viewDbBtn.Text = "Vezi Baza de Date";
             this.viewDbBtn.UseVisualStyleBackColor = false;
@@ -79,12 +78,11 @@
             // quitBtn
             // 
             this.quitBtn.BackColor = System.Drawing.Color.YellowGreen;
-            this.quitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quitBtn.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.quitBtn.Location = new System.Drawing.Point(292, 370);
-            this.quitBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.quitBtn.Location = new System.Drawing.Point(219, 301);
             this.quitBtn.Name = "quitBtn";
-            this.quitBtn.Size = new System.Drawing.Size(378, 54);
+            this.quitBtn.Size = new System.Drawing.Size(284, 44);
             this.quitBtn.TabIndex = 1;
             this.quitBtn.Text = "Iesire";
             this.quitBtn.UseVisualStyleBackColor = false;
@@ -93,12 +91,11 @@
             // startBtn
             // 
             this.startBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(0)))), ((int)(((byte)(130)))));
-            this.startBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBtn.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.startBtn.Location = new System.Drawing.Point(55, 237);
-            this.startBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.startBtn.Location = new System.Drawing.Point(41, 193);
             this.startBtn.Name = "startBtn";
-            this.startBtn.Size = new System.Drawing.Size(377, 57);
+            this.startBtn.Size = new System.Drawing.Size(283, 46);
             this.startBtn.TabIndex = 0;
             this.startBtn.Text = "Incepe Evaluarea Proiectului\r\n";
             this.startBtn.UseVisualStyleBackColor = false;
@@ -106,13 +103,12 @@
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 462);
+            this.ClientSize = new System.Drawing.Size(643, 375);
             this.Controls.Add(this.basePanel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
-            this.Text = "Numele Aplicatiei";
+            this.Text = "Nexus";
             this.basePanel.ResumeLayout(false);
             this.basePanel.PerformLayout();
             this.ResumeLayout(false);
