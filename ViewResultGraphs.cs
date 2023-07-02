@@ -27,10 +27,8 @@ namespace PJM_methodology_picker
         // function to proceess the data for the graph
         public void processGraphData() 
         {
-            Methodology projDataCopy = Program.getProjecData();
+            Dictionary<Atribute, Metodologii> tempDict = Program.getProjecData().getDict();
             Program.deleteProjectObject();
-            Dictionary<Atribute, Metodologii> tempDict = projDataCopy.getDict();
-            projDataCopy = null;
 
             switch (tempDict[Atribute.Buget]) 
             {

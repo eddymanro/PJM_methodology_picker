@@ -12,8 +12,8 @@ namespace PJM_methodology_picker
     internal static class Program
     {
         // List of object that holds the data locally
-        static List<ProjectModel> projectsList = new List<ProjectModel>();
-        static Methodology projData;
+        private static List<ProjectModel> projectsList = new List<ProjectModel>();
+        private static Methodology projData;
 
         // helper function to populate the array lists    
         public static void populateArraylist<T>(IMongoCollection<T> collection, List<T> list)
