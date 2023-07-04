@@ -33,7 +33,5 @@ namespace PJM_methodology_picker
         {
             this.Close();
         }
-
-        
     }
 }
