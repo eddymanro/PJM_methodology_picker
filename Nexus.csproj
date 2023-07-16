@@ -229,9 +229,7 @@
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
     <None Include="Pictures\LogoNexus.png" />
-    <None Include="Pictures\LogoNexus.jpg" />
     <None Include="Pictures\pjm_pic.jpg" />
-    <None Include="Pictures\graph_pic.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MongoDB.Libmongocrypt.1.8.0\build\MongoDB.Libmongocrypt.targets" Condition="Exists('packages\MongoDB.Libmongocrypt.1.8.0\build\MongoDB.Libmongocrypt.targets')" />

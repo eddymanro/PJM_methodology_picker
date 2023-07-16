@@ -63,26 +63,6 @@ namespace PJM_methodology_picker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap graph_pic {
-            get {
-                object obj = ResourceManager.GetObject("graph_pic", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LogoNexus {
-            get {
-                object obj = ResourceManager.GetObject("LogoNexus", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap LogoNexus1 {
             get {
                 object obj = ResourceManager.GetObject("LogoNexus1", resourceCulture);

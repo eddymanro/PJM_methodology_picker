@@ -1,0 +1,114 @@
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\mongocrypt.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\PJM_methodology_picker.exe.config
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.Core.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.SecurityToken.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\DnsClient.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Bson.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Driver.Core.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Driver.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Libmongocrypt.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\SharpCompress.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Snappier.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Buffers.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Memory.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Security.AccessControl.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Security.Principal.Windows.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\ZstdSharp.dll
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.Core.pdb
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.Core.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.SecurityToken.pdb
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\AWSSDK.SecurityToken.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\DnsClient.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Microsoft.Win32.Registry.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Bson.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Driver.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\MongoDB.Driver.Core.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\Snappier.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Buffers.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Memory.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Security.AccessControl.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Security.Principal.Windows.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\Nexus.csproj.AssemblyReference.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\Nexus.csproj.SuggestedBindingRedirects.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.MainWindow.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.Menu.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.Properties.Resources.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.ViewDatabaseWindow.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.ViewResultGraphs.resources
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\Nexus.csproj.GenerateResource.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\Nexus.csproj.CoreCompileInputs.cache
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\Nexus.csproj.CopyComplete
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\PJM_methodology_picker - Copy\obj\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\Nexus\obj\Debug\Nexus.csproj.AssemblyReference.cache
+D:\Programming\VS_Workspace\Nexus\obj\Debug\Nexus.csproj.SuggestedBindingRedirects.cache
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.MainWindow.resources
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.Menu.resources
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.ViewDatabaseWindow.resources
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.ViewResultGraphs.resources
+D:\Programming\VS_Workspace\Nexus\obj\Debug\Nexus.csproj.GenerateResource.cache
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\Nexus\bin\Debug\mongocrypt.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\PJM_methodology_picker.exe.config
+D:\Programming\VS_Workspace\Nexus\bin\Debug\PJM_methodology_picker.exe
+D:\Programming\VS_Workspace\Nexus\bin\Debug\PJM_methodology_picker.pdb
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.Core.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.SecurityToken.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\DnsClient.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Bson.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Driver.Core.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Driver.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Libmongocrypt.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\SharpCompress.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Snappier.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Buffers.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Memory.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Security.AccessControl.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Security.Principal.Windows.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\ZstdSharp.dll
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.Core.pdb
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.Core.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.SecurityToken.pdb
+D:\Programming\VS_Workspace\Nexus\bin\Debug\AWSSDK.SecurityToken.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\DnsClient.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Microsoft.Win32.Registry.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Bson.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Driver.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\MongoDB.Driver.Core.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\Snappier.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Buffers.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Memory.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Security.AccessControl.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Security.Principal.Windows.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\Programming\VS_Workspace\Nexus\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\VS_Workspace\Nexus\obj\Debug\PJM_methodology_picker.Properties.Resources.resources
+D:\Programming\VS_Workspace\Nexus\obj\Debug\Nexus.csproj.CoreCompileInputs.cache
+D:\Programming\VS_Workspace\Nexus\obj\Debug\Nexus.csproj.CopyComplete
